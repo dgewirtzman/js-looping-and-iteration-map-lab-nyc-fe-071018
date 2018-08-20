@@ -14,4 +14,8 @@ function nameToAttributes(drivers) {
   return driverObject
 }
 
-function 
+function attributesToPhrase(driverInfo) {
+  driverInfo.map((val, index, driverInfo) => {
+    console.log(`)
+  })
+}
