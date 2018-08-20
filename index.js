@@ -16,6 +16,7 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(driverInfo) {
   let driverString = driverInfo.map((val, index, driverInfo) => {
-    console.log(driverInfo[index].name + " is from " + driverInfo[index].hometown )
+    let thePhrase = (driverInfo[index].name + " is from " + driverInfo[index].hometown );
+    return thePhrase
   })
 }
