@@ -11,7 +11,5 @@ function nameToAttributes(drivers) {
       lastName: val[1]
     }
   })
-  console.log(driverObject)
-  // console.log(driverObject)
 }
 
