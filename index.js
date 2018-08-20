@@ -4,6 +4,6 @@ function lowerCaseDrivers(driverList) {
 }
 
 function nameToAttributes(drivers) {
-  
+  function driverSplitter(drivers )
 }
 
