@@ -19,4 +19,5 @@ function attributesToPhrase(driverInfo) {
     let thePhrase = (driverInfo[index].name + " is from " + driverInfo[index].hometown );
     return thePhrase
   })
+  return driverString
 }
