@@ -11,5 +11,6 @@ function nameToAttributes(drivers) {
       lastName: val[1]
     }
   })
+  return driverObject
 }
 
